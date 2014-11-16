@@ -1,4 +1,4 @@
-<b>ColorCoder App</b> <br>
+ColorCoder App <br>
 CMPS121, Spring 2014
 
 <br>
