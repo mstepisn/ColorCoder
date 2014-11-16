@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ColorCoder</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="greenString">green</string>
+    <string name="redString">red</string>
+    <string name="blueString">blue</string>
+    <string name="clearString">clear</string>
+    <string name="whiteBG">white</string>
+    <string name="grayBG">gray</string>
+    <string name="blackBG">black</string>
+    <string name="backgroundColor">Background Color:</string>
+
+</resources>

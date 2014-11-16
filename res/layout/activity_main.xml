@@ -1,0 +1,179 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFF"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+ 
+   <LinearLayout
+        android:id="@+id/paint_colors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="10dip" >
+        
+<LinearLayout
+        android:id="@+id/red_colors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+        
+     
+      
+        <SeekBar
+            android:id="@+id/redSeeker"
+            android:layout_width="256dip"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="5dip"
+            android:max="255"
+            android:maxHeight="5dip"
+            android:minHeight="5dip"
+            android:progress="255"
+            android:progressDrawable="@drawable/red_progress"
+            android:thumb="@drawable/thumb_drawable"
+            android:thumbOffset="-0.5dip"
+            android:layout_gravity="center" />
+        
+         <TextView
+            android:id="@+id/redEdit"
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:textSize="15dip"
+            android:layout_marginLeft = "5dip"
+            android:layout_marginRight = "5dip"
+            android:layout_gravity="center" >
+
+        </TextView>
+        
+        </LinearLayout>
+        
+ 	<LinearLayout
+        android:id="@+id/green_colors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dip" >
+        
+     <SeekBar
+            android:id="@+id/greenSeeker"
+            android:layout_width="256dip"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:max="255"
+            android:maxHeight="5dip"
+            android:minHeight="5dip"
+            android:progress="0"
+            android:progressDrawable="@drawable/green_progress"
+            android:thumb="@drawable/thumb_drawable"
+            android:thumbOffset="-0.5dip" />
+                
+      <TextView
+            android:id="@+id/greenEdit"
+             android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:textSize="15dip"
+            android:layout_marginLeft = "5dip"
+            android:layout_marginRight = "5dip"
+            android:layout_gravity="center" >
+
+        </TextView>
+        </LinearLayout>
+                
+
+<LinearLayout
+        android:id="@+id/blue_colors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dip" >
+                
+       
+
+        <SeekBar
+            android:id="@+id/blueSeeker"
+            android:layout_width="256dip"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:max="255"
+            android:maxHeight="5dip"
+            android:minHeight="5dip"
+            android:progress="0"
+            android:progressDrawable="@drawable/blue_progress"
+            android:thumb="@drawable/thumb_drawable"
+            android:thumbOffset="-0.5dip" />
+        
+         <TextView
+            android:id="@+id/blueEdit"
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:textSize="15dip"
+            android:layout_marginLeft = "5dip"
+            android:layout_marginRight = "5dip"
+            android:layout_gravity="center" >
+
+        </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <cmps121.finalproject.rhms.DrawingView
+        android:id="@+id/drawing"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_marginTop = "5dip"
+        android:layout_marginLeft = "5dip"
+        android:layout_marginRight = "5dip"
+        android:layout_marginBottom = "5dip"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/backgroundColor"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="50dip"
+    android:layout_gravity="center"
+     android:background="#FFFFFFFF"
+     android:orientation="horizontal" >
+
+     <RadioGroup
+         android:id="@+id/radioBG"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal" >
+
+         <RadioButton
+             android:id="@+id/radioWhite"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/whiteBG"
+             android:checked="true" />
+         
+         <RadioButton
+             android:id="@+id/radioGray"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/grayBG" />
+
+         <RadioButton
+             android:id="@+id/radioBlack"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/blackBG" 
+             />
+     </RadioGroup>
+     
+      
+</LinearLayout>
+
+</LinearLayout>

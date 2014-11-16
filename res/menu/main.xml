@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <!-- presets menu start-->
+ 
+ <item android:id="@+id/presets"
+          android:title="Presets" >
+ 
+    <menu> <!-- start of presets items-->
+    <item android:id="@+id/bold"
+          android:title="Bold" >
+          <!-- start of bold colors-->
+    <menu> 
+    <item android:id="@+id/preMagenta"
+          android:title="Magenta" /> 
+    <item android:id="@+id/preRed"
+          android:title="Red" />
+    <item android:id="@+id/preYellow"
+          android:title="Yellow" /> 
+    <item android:id="@+id/preOrange"
+          android:title="Orange" /> 
+    <item android:id="@+id/preGreen"
+          android:title="Green" />
+    <item android:id="@+id/preCyan"
+          android:title="Cyan" /> 
+    <item android:id="@+id/preBlue"
+          android:title="Blue" />  
+    <item android:id="@+id/prePurple"
+          android:title="Purple" />
+     </menu>  
+     </item><!-- end of bold colors-->
+     
+     
+       <item android:id="@+id/pastels"
+          android:title="Pastels" >
+          <!-- start of pastels-->
+    <menu> 
+    <item android:id="@+id/prePastPink"
+          android:title="Pink" /> 
+    <item android:id="@+id/prePastYellow"
+          android:title="Yellow" />
+    <item android:id="@+id/prePastGreen"
+          android:title="Green" /> 
+    <item android:id="@+id/prePastBlue"
+          android:title="Blue" /> 
+    <item android:id="@+id/prePastPurple"
+          android:title="Purple" />
+     </menu>  
+     </item><!-- end of pastels-->
+     
+     
+    <item android:id="@+id/metal"
+          android:title="Metals" >
+          <!-- start of metals-->
+    <menu> 
+    <item android:id="@+id/preGold"
+          android:title="Gold" />
+    <item android:id="@+id/preSilver"
+          android:title="Silver" />
+    <item android:id="@+id/preCopper"
+          android:title="Copper" />  
+     </menu>  
+     </item><!-- end of metals-->
+     
+     
+       <item android:id="@+id/grays"
+          android:title="Grayscale" >
+          <!-- start of grayscale-->
+    <menu> 
+    <item android:id="@+id/preBlack"
+          android:title="Black" /> 
+    <item android:id="@+id/preDarkGray"
+          android:title="Dark Gray" />
+    <item android:id="@+id/preMidGray"
+          android:title="Medium Gray" />  
+    <item android:id="@+id/preLightGray"
+          android:title="Light Gray" />
+    <item android:id="@+id/preWhite"
+          android:title="White" />
+     </menu>  
+     </item><!-- end of grayscale-->
+     
+     </menu>  <!-- end of color presets-->
+     </item>
+     
+     <item android:id="@+id/Circles"
+          android:title="Circle Size" >
+          <!-- start of circle sizes-->
+    <menu> 
+    <item android:id="@+id/circleSmall"
+          android:title="Small" /> 
+    <item android:id="@+id/circleMedium"
+          android:title="Medium" />
+    <item android:id="@+id/circleLarge"
+          android:title="Large" />
+    <item android:id="@+id/circleXL"
+          android:title="Extra Large" />  
+     </menu>  
+     </item><!-- end of circle sizes-->
+     
+     <item android:id="@+id/menuSave"
+          android:title="Save" />
+  
+</menu>  
