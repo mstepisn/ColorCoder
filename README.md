@@ -1,4 +1,3 @@
-
 ColorCoder
 
 CMPS121, Spring 2014
